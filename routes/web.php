@@ -18,3 +18,20 @@ Route::get('/', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::get('/tbjoshua', function () {
+    return view('tbjoshua');
+});
+
+Route::get('/questions', function () {
+    return view('questions');
+});
+
+Route::get('/hotels', function () {
+    return view('hotels');
+});
+
+Route::get('/conference', function () {
+    return view('conference');
+});
+

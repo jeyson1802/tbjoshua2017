@@ -6,10 +6,6 @@
 
 @section('slider')
     <div data-autoplay="5000" data-slide-effect="fade" data-loop="false" class="swiper-container swiper-slider">
-        <div class="jumbotron text-center">
-            <h1><small>CONTÁCTENOS</small>Envíenos sus dudas.</h1>
-            <p class="big"></p>
-        </div>
         <div class="swiper-wrapper">
             <div data-slide-bg="images/header-1.jpg" class="swiper-slide">
                 <div class="swiper-slide-caption"></div>
@@ -34,7 +30,7 @@
                             <dt class="h6">DIRECCIÓN</dt>
                             <dd>Lima, Perú</dd>
                             <dt class="h6">HORARIOS</dt>
-                            <dd>Lunes - Domingo 9:00 - 20:00</dd>
+                            <dd>Lunes - Domingo / 9:00 - 20:00</dd>
                             <dt class="h6">TELÉFONOS</dt>
                             <dd><a href="callto:#">999999999, &nbsp;</a><a href="callto:#">99999999</a></dd>
                             <dt class="h6">E-MAIL</dt>

@@ -53,14 +53,13 @@
                             <li class="active"><a href="./">Inicio</a></li>
                             <li><a href="#">Evento</a>
                                 <ul class="rd-navbar-dropdown">
-                                    <li><a href="index-parallax.html">Congreso</a></li>
-                                    <li><a href="index.html">Hoteles</a></li>
-                                    <li><a href="index-cent.html">Transporte</a></li>
+                                    <li><a href="{{ url('conference') }}">Conferencia</a></li>
+                                    <li><a href="{{ url('hotels') }}">Hoteles</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">TB Joshua</a></li>
+                            <li><a href="{{ url('tbjoshua') }}">TB Joshua</a></li>
                             <li><a href="#">Registro</a>
-                            <li><a href="#">Preguntas Frecuentes</a></li>
+                            <li><a href="{{ url('questions') }}">Preguntas Frecuentes</a></li>
                             <li><a href="{{ url('contact') }}">Contacto</a></li>
                         </ul>
                         <!--END RD Navbar Nav-->
@@ -94,8 +93,8 @@
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#">Congreso</a></li>
                     <li><a href="#">Hoteles</a></li>
-                    <li><a href="#">Tb Joshua</a></li>
-                    <li><a href="#">Preguntas Frecuentes</a></li>
+                    <li><a href="{{ url('tbjoshua') }}">Tb Joshua</a></li>
+                    <li><a href="{{ url('questions') }}">Preguntas Frecuentes</a></li>
                     <li><a href="{{ url('contact') }}">Contacto</a></li>
                 </ul>
             </div>
