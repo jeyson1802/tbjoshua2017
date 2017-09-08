@@ -2,85 +2,145 @@
 
 @section('title', 'Contacto')
 
-@section('class-header', 'subpage_header')
-
-@section('slider')
-    <div data-autoplay="5000" data-slide-effect="fade" data-loop="false" class="swiper-container swiper-slider">
-        <div class="swiper-wrapper">
-            <div data-slide-bg="images/header-1.jpg" class="swiper-slide">
-                <div class="swiper-slide-caption"></div>
-            </div>
-            <div data-slide-bg="images/header-3.jpg" class="swiper-slide">
-                <div class="swiper-slide-caption"></div>
-            </div>
-            <div data-slide-bg="images/header-4.jpg" class="swiper-slide">
-                <div class="swiper-slide-caption"></div>
-            </div>
-        </div>
-    </div>
-@endsection
-
 @section('content')
-    <section class="well well-sm">
+
+    <div id="page-banner-area" class="page-banner-area" style="background-image:url(images/banner/banner1.jpg)">
+        <!-- Subpage title start -->
+        <div class="page-banner-title">
+            <div class="text-center">
+                <h2>Contact</h2>
+            </div>
+        </div><!-- Subpage title end -->
+    </div><!-- Banner end -->
+
+    <section id="main-container" class="main-container">
         <div class="container">
-            <div class="row flow-offset-1">
-                <div class="col-md-4 text-center text-md-left">
-                    <address class="contact-block inset-sm-min-2">
-                        <dl>
-                            <dt class="h6">DIRECCIÓN</dt>
-                            <dd>Lima, Perú</dd>
-                            <dt class="h6">HORARIOS</dt>
-                            <dd>Lunes - Domingo / 9:00 - 20:00</dd>
-                            <dt class="h6">TELÉFONOS</dt>
-                            <dd><a href="callto:#">999999999, &nbsp;</a><a href="callto:#">99999999</a></dd>
-                            <dt class="h6">E-MAIL</dt>
-                            <dd><a href="mailto:#">info@conferenciadepastorestbjoshuaperu.com</a></dd>
-                        </dl>
-                        <ul class="list-inline list-inline-3">
-                            <li><a href="#" class="fa-facebook-square"></a></li>
-                            <li><a href="#" class="fa-twitter-square"></a></li>
-                            <li><a href="#" class="fa-google-plus-square"></a></li>
-                        </ul>
-                    </address>
-                </div>
-                <div class="col-md-8 btn-shadow inset-sm-min">
-                    <h5 class="text-center">CONTÁCTENOS</h5>
-                    <form method="post" action="bat/rd-mailform.php" class="row label-insets rd-mailform">
-                        <!--RD Mailform Type-->
-                        <input type="hidden" name="form-type" value="contact">
-                        <!--END RD Mailform Type-->
-                        <div class="form-group col-sm-6">
-                            <label for="exampleInputText1" class="text-uppercase font-secondary form-label">Nombres</label>
-                            <input type="text" placeholder="Tus Nombres" name="name" data-constraints="@NotEmpty @LettersOnly" id="exampleInputText1" class="form-control">
+
+            <div class="row">
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+
+                    <div class="sidebar sidebar-left">
+                        <div class="widget contact-info">
+                            <div class="contact-info-box">
+                                <i class="fa fa-map-marker">&nbsp;</i>
+                                <div class="contact-info-box-content">
+                                    <h4>Office Address: </h4>
+                                    <p>Eventime HQ, 1638 North Street Charlottesville, NY 22903</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-info-box">
+                                <i class="fa fa-envelope-o">&nbsp;</i>
+                                <div class="contact-info-box-content">
+                                    <h4>Email Address: </h4>
+                                    <p>example@example.com</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-info-box">
+                                <i class="fa fa-phone">&nbsp;</i>
+                                <div class="contact-info-box-content">
+                                    <h4>Phone Number: </h4>
+                                    <p>+1(0231) 3421 453</p>
+                                </div>
+                            </div>
+
+                        </div><!-- Widget end -->
+                    </div><!-- Sidebar left end -->
+                </div><!-- Sidebar col end -->
+
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <h3 class="title-classic left">Send Message</h3>
+                    <form id="contact-form" action="contact-form.php" method="post" role="form">
+                        <div class="error-container"></div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Name</label>
+                                    <input class="form-control form-control-name" name="name" id="name" placeholder="" type="text" required>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input class="form-control form-control-email" name="email" id="email"
+                                           placeholder="" type="email" required>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Subject</label>
+                                    <input class="form-control form-control-subject" name="subject" id="subject"
+                                           placeholder="" required>
+                                </div>
+                            </div>
                         </div>
-                        <div class="form-group col-sm-6">
-                            <label for="exampleInputText2" class="text-uppercase font-secondary">Apellidos</label>
-                            <input type="text" placeholder="Tus Apellidos" name="name2" data-constraints="@NotEmpty @LettersOnly" id="exampleInputText2" class="form-control">
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea class="form-control form-control-message" name="message" id="message" placeholder="" rows="10" required></textarea>
                         </div>
-                        <div class="form-group col-sm-12">
-                            <label for="exampleTextarea" class="text-uppercase font-secondary">Mensaje</label>
-                            <textarea id="exampleTextarea" rows="3" placeholder="Escribe tu mensaje aquí" name="message" data-constraints="@NotEmpty" class="form-control"></textarea>
-                        </div>
-                        <div class="form-group col-sm-6">
-                            <label for="exampleInputEmail1" class="text-uppercase font-secondary">E-mail</label>
-                            <input placeholder="E-mail" type="text" name="email" data-constraints="@NotEmpty @Email" id="exampleInputEmail1" class="form-control">
-                        </div>
-                        <div class="col-sm-6">
-                            <button type="submit" class="btn btn-primary btn-xs round-xl btn-block form-el-offset-1">Enviar</button>
-                            <div class="mfInfo"></div>
+                        <div class="text-right"><br>
+                            <button class="btn btn-primary solid blank" type="submit">Send Message</button>
                         </div>
                     </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End section-->
-    <section class="map">
-        <div id="google-map" class="map_model"></div>
-        <ul class="map_locations">
-            <li data-x="-73.9874068" data-y="40.643180" data-basic="images/gmap_marker.png" data-active="images/gmap_marker_active.png">
-                <p>9870 St Vincent Place, Glasgow, DC 45 Fr 45. <span>800 2345-6789</span></p>
-            </li>
-        </ul>
-    </section>
+                </div><!-- Col end -->
+
+            </div><!-- Content row -->
+
+            <div class="gap-60"></div>
+
+            <div id="map" class="map"></div>
+
+        </div><!-- Conatiner end -->
+    </section><!-- Main container end -->
 @endsection
+
+@push('scripts')
+
+    <!-- Counter -->
+    <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+    <!-- Countdown -->
+    <script type="text/javascript" src="js/jquery.jCounter.js"></script>
+
+    <!-- Google Map -->
+    <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
+    <!-- Doc https://developers.google.com/maps/documentation/javascript/get-api-key -->
+    <!-- For latitude and longitude use http://www.latlong.net/ -->
+
+    <script type="text/javascript" src="js/gmap3.min.js"></script>
+
+    <script type="text/javascript">
+        
+        /* Event map */
+
+        var eventmap = {lat: 40.742964, lng: -73.992277};
+
+        $('.map')
+            .gmap3({
+                zoom: 13,
+                center: eventmap,
+                mapTypeId : google.maps.MapTypeId.ROADMAP,
+                scrollwheel: false
+            })
+
+            .marker({
+                position: eventmap
+            })
+
+            .infowindow({
+                position: eventmap,
+                content: "NYC Seminar and Conference Center, New York"
+            })
+
+            .then(function (infowindow) {
+                var map = this.get(0);
+                var marker = this.get(1);
+                marker.addListener('click', function() {
+                    infowindow.open(map, marker);
+                });
+            });
+
+
+    </script>
+@endpush

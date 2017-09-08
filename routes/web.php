@@ -15,11 +15,11 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/contact', function () {
+Route::get('/contactotbjoshuaperu', function () {
     return view('contact');
 });
 
-Route::get('/tbjoshua', function () {
+Route::get('/tbjoshuaperu', function () {
     return view('tbjoshua');
 });
 

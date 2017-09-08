@@ -1,128 +1,187 @@
 <!DOCTYPE html>
-<html lang="en" class="wide wow-animation">
+<html lang="en">
 <head>
-    <!--Site Title-->
-    <title>@yield('title')</title>
-    <meta charset="utf-8">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-    <!--Stylesheets-->
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+
+    <!-- Site Title -->
+    <title>@yield('title')</title>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
-    <!--Bootstrap-->
+    <!-- CSS
+    ================================================== -->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Template styles-->
     <link rel="stylesheet" href="css/style.css">
-    <!--[if lt IE 10]>
-        <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/.."><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
-        <script src="js/html5shiv.min.js"></script><[endif]-->
+    <!-- Responsive styles-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Animation -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Colorbox -->
+    <link rel="stylesheet" href="css/colorbox.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
 <body>
-<!--The Main Wrapper-->
-<div class="page">
-    <!--
-    ========================================================
-                            HEADER
-    ========================================================
-    -->
-    <header class=@yield('class-header')>
 
-        <!--RD Navbar-->
-        <div class="rd-navbar-wrap">
-            <nav class="rd-navbar bg-white minimal top-panel-none toggles-none " data-layout="rd-navbar-fixed" data-hover-on="false" data-stick-up="false" data-sm-layout="rd-navbar-fullwidth" data-sm-device-layout="rd-navbar-fullwidth" data-md-layout="rd-navbar-static" data-md-device-layout="rd-navbar-static" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static">
+<div class="preload"></div>
 
-                <div class="rd-navbar-inner">
+<div class="body-inner">
 
-                    <!--RD Navbar Panel-->
-                    <div class="rd-navbar-panel">
+    <!-- Header start -->
+    <header id="header" class="header header-transparent">
+        <div class="container">
+            <div class="row">
+                <div class="navbar-header">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                    </div><!-- logo end -->
+                </div><!-- Navbar header end -->
 
-                        <!--RD Navbar Toggle-->
-                        <button data-rd-navbar-toggle=".rd-navbar" class="rd-navbar-toggle"><span></span></button>
-                        <!--END RD Navbar Toggle-->
+                <div class="site-nav-inner">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
 
-                        <!--RD Navbar Brand-->
-                        <div class="rd-navbar-brand"><a href="index.html" class="brand-name">Tb Joshua 2017</a></div>
-                        <!--END RD Navbar Brand-->
-                    </div>
-                    <!--END RD Navbar Panel-->
+                    <nav class="collapse navbar-collapse navbar-responsive-collapse pull-right">
 
-                    <div class="rd-navbar-nav-wrap">
+                        <ul class="nav navbar-nav">
 
-                        <!--RD Navbar Nav-->
-                        <ul class="rd-navbar-nav">
-                            <li class="active"><a href="./">Inicio</a></li>
-                            <li><a href="#">Evento</a>
-                                <ul class="rd-navbar-dropdown">
-                                    <li><a href="{{ url('conference') }}">Conferencia</a></li>
-                                    <li><a href="{{ url('hotels') }}">Hoteles</a></li>
+                            <li><a href="./">Inicio</a></li><!-- Home li end -->
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Evento <i class="fa fa-angle-down"></i></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="{{ url('conferenciadepastorestbjoshuaperu') }}">Conferencia</a></li>
+                                    <li><a href="{{ url('programaciontbjoshuaperu') }}">Programación</a></li>
+                                    <li><a href="{{ url('hotelestbjoshuaperu') }}">Hoteles</a></li>
+                                    <li><a href="{{ url('transportetbjoshuaperu') }}">Transporte</a></li>
                                 </ul>
+                            </li><!-- Evento li end -->
+
+                            <li><a href="{{ url('tbjoshuaperu') }}">Tb. Joshua</a></li><!-- Tb. Joshua li end -->
+
+                            <li><a href="{{ url('preguntastbjoshua') }}">Preguntas Frecuentes</a></li><!-- Tb. Joshua li end -->
+
+                            <li><a href="{{ url('contactotbjoshuaperu') }}">Contacto</a></li><!-- Tb. Joshua li end -->
+
+                            <li class="header-ticket">
+                                <a class="ticket-btn btn-primary" href="#"><i class="fa fa-ticket"></i> Registro</a>
                             </li>
-                            <li><a href="{{ url('tbjoshua') }}">TB Joshua</a></li>
-                            <li><a href="#">Registro</a>
-                            <li><a href="{{ url('questions') }}">Preguntas Frecuentes</a></li>
-                            <li><a href="{{ url('contact') }}">Contacto</a></li>
-                        </ul>
-                        <!--END RD Navbar Nav-->
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <!--END RD Navbar-->
-        <section>
-            @yield('slider')
-        </section>
-    </header>
+
+                        </ul><!--/ Nav ul end -->
+
+                    </nav><!--/ Collapse end -->
+
+                </div><!--/ Site nav inner end -->
+            </div><!--/ Row end -->
+        </div><!--/ Container end -->
+    </header><!--/ Header end -->
     <!--
     ========================================================
                             CONTENT
     ========================================================
     -->
-    <main class="page-content">
-        @yield('content')
-    </main>
+    @yield('content')
     <!--
     ========================================================
                             FOOTER
     ========================================================
     -->
-    <footer class="page-footer footer-minimal dark text-center">
-        <section class="footer-content">
-            <div class="container">
-                <div class="navbar-brand pull-lg-left"><a href="index.html">Tb Joshua 2017</a></div>
-                <ul class="list-inline-2 pull-lg-right">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Congreso</a></li>
-                    <li><a href="#">Hoteles</a></li>
-                    <li><a href="{{ url('tbjoshua') }}">Tb Joshua</a></li>
-                    <li><a href="{{ url('questions') }}">Preguntas Frecuentes</a></li>
-                    <li><a href="{{ url('contact') }}">Contacto</a></li>
-                </ul>
-            </div>
-        </section>
-        <section class="copyright">
-            <div class="container">
-                <p class="pull-md-left">&#169; <span id="copyright-year"></span> All Rights Reserved <a href="terms.html">Terms of Use and Privacy Policy</a>
+    <div id="map" class="map"></div> <!-- Google Map -->
 
-                </p>
-                <ul class="list-inline pull-md-right">
-                    <li><a href="#" class="fa-facebook"></a></li>
-                    <li><a href="#" class="fa-pinterest-p"></a></li>
-                    <li><a href="#" class="fa-twitter"></a></li>
-                    <li><a href="#" class="fa-google-plus"></a></li>
-                    <li><a href="#" class="fa-instagram"></a></li>
-                </ul>
-            </div>
-        </section>
-    </footer>
-</div>
-<!--Core Scripts-->
-<script src="js/core.min.js"></script>
-<!--jQuery (necessary for Bootstrap's JavaScript plugins)-->
-<!--Include all compiled plugins (below), or include individual files as needed-->
-<script src="js/bootstrap.min.js"></script>
-<!--Additional Functionality Scripts-->
-<script src="js/script.js"></script>
+    <footer id="footer" class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
 
-@stack('scripts')
+                    <img src="images/footer-logo.png" alt="footer logo" />
+
+                    <div class="footer-social">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div><!-- Footer social end -->
+
+                    <div class="footer-menu">
+                        <ul class="nav unstyled">
+                            <li><a href="{{ url('conferenciadepastorestbjoshuaperu') }}">Conferencia</a></li>
+                            <li><a href="{{ url('programaciontbjoshuaperu') }}">Programación</a></li>
+                            <li><a href="{{ url('tbjoshuaperu') }}">Tb. Joshua</a></li>
+                            <li><a href="#">Registro</a></li>
+                            <li><a href="{{ url('preguntastbjoshua') }}">Preguntas Frecuentes</a></li>
+                            <li><a href="{{ url('contactotbjoshuaperu') }}">Contacto</a></li>
+                        </ul>
+                    </div><!-- Footer menu end -->
+
+                    <div class="copyright-info">
+                        <span>Copyright © 2017 Tb. Joshua Perú. All Rights Reserved.</span>
+                    </div><!-- Copyright info end -->
+
+                </div><!-- Content col end -->
+            </div><!-- Content row end -->
+        </div><!-- Container end -->
+
+        <div class="footer-pattern"></div> <!-- Footer pattern image -->
+
+        <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top affix">
+            <button class="btn btn-primary" title="Back to Top">
+                <i class="fa fa-angle-up"></i>
+            </button>
+        </div>
+
+    </footer><!-- Footer end -->
+
+
+    <!-- Javascript Files
+    ================================================== -->
+
+    <!-- initialize jQuery Library -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <!-- Bootstrap jQuery -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script type="text/javascript" src="js/waypoints.min.js"></script>
+    <!-- Color box for Popup-->
+    <script type="text/javascript" src="js/jquery.colorbox.js"></script>
+    <!-- Smoothscroll -->
+    <script type="text/javascript" src="js/smoothscroll.js"></script>
+    <!-- Template custom -->
+    <script type="text/javascript" src="js/custom.js"></script>
+
+    @stack('scripts')
+
+</div><!-- Body inner end -->
 </body>
 </html>
