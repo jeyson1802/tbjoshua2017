@@ -7,7 +7,7 @@
 @section('slider')
     <div data-autoplay="5000" data-slide-effect="fade" data-loop="false" class="swiper-container swiper-slider">
         <div class="swiper-wrapper">
-            <div data-slide-bg="images/header-4.jpg" class="swiper-slide">n
+            <div data-slide-bg="images/profeta-1.jpg" class="swiper-slide">
                 <div class="swiper-slide-caption"></div>
             </div>
             <div data-slide-bg="images/header-5.jpg" class="swiper-slide">
