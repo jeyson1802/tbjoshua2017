@@ -111,7 +111,7 @@
     <script type="text/javascript" src="js/gmap3.min.js"></script>
 
     <script type="text/javascript">
-        
+
         /* Event map */
 
         var eventmap = {lat: 40.742964, lng: -73.992277};
