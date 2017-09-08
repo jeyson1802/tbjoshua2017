@@ -28,7 +28,7 @@
                     </div><!-- Countdown end -->
 
                     <h1 class="banner-title">Conferencia de Pastores <br> profeta Tb. Joshua</h1>
-                    <h2 class="banner-desc">Lima - Perú, 10-12 Diciembre, 2017</h2>
+                    <h2 class="banner-desc">Lima - Perú, 21 Noviembre, 2017</h2>
                     <p class="banner-btn">
                         <a href="#" class="btn btn-primary">Registrate Ahora</a>
                         <a href="{{ url('conferenciadepastorestbjoshuaperu') }}" class="btn btn-border">Leer Más</a>
@@ -42,8 +42,8 @@
         <div class="container">
 
             <div class="row text-center">
-                <h2 class="section-title">About the Event</h2>
-                <p class="section-sub-title">Design, Development, UX and Products</p>
+                <h2 class="section-title">Conferencia de pastores</h2>
+                <p class="section-sub-title">Tb. Joshua</p>
             </div><!--/ Title row end -->
 
             <div class="row">
@@ -63,20 +63,20 @@
                         <ul class="nav nav-tabs">
                             <li class="active">
                                 <a class="animated fadeIn" href="#tab_a" data-toggle="tab">
-                                    Hands-on Experiences
+                                    Liberación
                                 </a>
                             </li>
                             <li>
                                 <a class="animated fadeIn" href="#tab_b" data-toggle="tab">
 							  		<span class="tab-head">
-										<span class="tab-text-title">Networking</span>
+										<span class="tab-text-title">Sanidad</span>
 									</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="animated fadeIn" href="#tab_c" data-toggle="tab">
 							  		<span class="tab-head">
-										<span class="tab-text-title">Fun &amp; Foods</span>
+										<span class="tab-text-title">Impartición</span>
 									</span>
                                 </a>
                             </li>
@@ -84,33 +84,27 @@
 
                         <div class="tab-content">
                             <div class="tab-pane active animated fadeInRight" id="tab_a">
-                                <h3 class="tab-content-title">Workshops - Project Sessions - Industry Leaders</h3>
-                                <p class="sppb-cta-text">	We are rethoric question ran over her cheek When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.
+                                <h3 class="tab-content-title">Sesión de Liberación </h3>
+                                <p class="sppb-cta-text">	El cuerpo de Cristo necesita ser liberado de toda opresión. En la conferencia de pastores por el profeta Tb. Joshua tendremos una sesión de liberación con poder. Seremos libres por el poder de Cristo nuestro Señor.
                                 </p>
-                                <blockquote>Throw myself down teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees. Anna has collated all their findings for this talk on the different kinds.</blockquote>
-                                <p>Few stray gleams steal into the inner sanctuary grow familiar with the countless indescribable forms, then I feel the presence of the Almighty.</p>
+                                <blockquote>	El Espíritu del Señor está sobre mí, Por cuanto me ha ungido para dar buenas nuevas a los pobres; Me ha enviado a sanar a los quebrantados de corazón; A pregonar libertad a los cautivos, Y vista a los ciegos; A poner en libertad a los oprimidos - Lucas 4:18</blockquote>
                             </div><!-- Tab pane 1 end -->
 
                             <div class="tab-pane animated fadeInRight" id="tab_b">
-                                <h3 class="tab-content-title">Meet the Right People</h3>
-                                <p>A great opportunity to network with your peers from the web industry. Throw myself down teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees. Anna has collated all their findings for this talk on the different kinds.
+                                <h3 class="tab-content-title">Sesión de Sanidad</h3>
+                                <p>El profeta Tb. Joshua tendrá una sesión de oración por sanidad, cada pastor podrá ser libre de toda enfermdad que el enemigo haya querido poner sobre sus vidas, para así poder liberar al pueblo de Cristo.
+                                <blockquote>		tomarán en las manos serpientes, y si bebieren cosa mortífera, no les hará daño; sobre los enfermos pondrán sus manos, y sanarán - Marcos 16:18</blockquote>
                                 </p>
-                                <ul class="list-arrow">
-                                    <li>Maecenas nibh dolor</li>
-                                    <li>Aliquettiabser libero</li>
-                                    <li>Consectetur ut vestibulum</li>
-                                    <li>Skateboard dolor brunch</li>
-                                </ul>
                             </div><!-- Tab pane 2 end -->
 
                             <div class="tab-pane animated fadeInRight" id="tab_c">
-                                <h3 class="tab-content-title">After Party, Fun and Food is Unlimited</h3>
-                                <p>Aenean et dolor pretium, feugiat leom nongial, aliquettiabser libero. Consectetur ut vestibulum vivamus. Throw myself down teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees. Anna has collated all their findings for this talk on the different kinds.</p>
+                                <h3 class="tab-content-title">Sesión de impartición</h3>
+                                <p>El profeta Tb. Joshua impartirá bendición y unción sobre los invitados de la conferencia, esto traerá un cambio a la nación de Perú.</p>
                                 <ul class="list-arrow">
-                                    <li>Maecenas nibh dolor</li>
-                                    <li>Aliquettiabser libero</li>
-                                    <li>Consectetur ut vestibulum</li>
-                                    <li>Skateboard dolor brunch</li>
+                                    <li>Sanidad</li>
+                                    <li>Liberación</li>
+                                    <li>Unción</li>
+                                    <li>Finanzas</li>
                                 </ul>
                             </div><!-- Tab pane 3 end -->
                         </div><!-- tab content -->
@@ -120,6 +114,216 @@
             </div><!-- Content Row end -->
         </div><!-- Container end -->
     </section><!-- Intro area end -->
+
+    <section id="facts" class="facts-area bg-overlay">
+        <div class="container">
+            <div class="row">
+                <div class="facts-wrapper">
+                    <div class="col-sm-3 ts-facts">
+						<span class="ts-facts-icon">
+							<i class="fa fa-users"></i>
+						</span>
+                        <div class="ts-facts-content">
+                            <h2 class="ts-facts-num"><span class="counterUp">1500</span></h2>
+                            <h3 class="ts-facts-title">Pastores</h3>
+                        </div>
+                    </div><!-- Col 1 end -->
+
+                    <div class="col-sm-3 ts-facts">
+                        <div class="ts-facts-icon">
+                            <i class="fa fa-microphone"></i>
+                        </div>
+                        <div class="ts-facts-content">
+                            <h2 class="ts-facts-num"><span class="counterUp">1</span></h2>
+                            <h3 class="ts-facts-title">Conferencistas</h3>
+                        </div>
+                    </div><!-- Col 2 end -->
+
+                    <div class="col-sm-3 ts-facts">
+                        <div class="ts-facts-icon">
+                            <i class="fa fa-calendar"></i>
+                        </div>
+                        <div class="ts-facts-content">
+                            <h2 class="ts-facts-num"><span class="counterUp">4</span></h2>
+                            <h3 class="ts-facts-title">Sesiones</h3>
+                        </div>
+
+                    </div><!-- Col 3 end -->
+
+                    <div class="col-sm-3 ts-facts">
+                        <div class="ts-facts-icon">
+                            <i class="fa fa-globe"></i>
+                        </div>
+                        <div class="ts-facts-content">
+                            <h2 class="ts-facts-num"><span class="counterUp">15</span></h2>
+                            <h3 class="ts-facts-title">Países</h3>
+                        </div>
+
+                    </div><!-- Col 4 end -->
+                </div><!-- Facts end -->
+
+            </div><!--/ Content row end -->
+        </div><!--/ Container end -->
+    </section><!-- Facts end -->
+
+    <section id="ts-schedule" class="ts-schedule">
+        <div class="container">
+            <div class="row text-center">
+                <h2 class="section-title">Programación</h2>
+                <p class="section-sub-title"></p>
+            </div><!--/ Title row end -->
+
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="schedule-tab">
+                        <ul class="nav nav-tabs" id="nav-tabs">
+                            <li class="active">
+                                <a class="animated fadeIn" href="#tab_one" data-toggle="tab">
+						  			<span class="tab-head">
+										<span class="tab-text-title">Evento</span>
+									</span>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div class="tab-pane active animated fadeInRight" id="tab_one">
+
+                                <h2 class="schedule-date">21 de Noviembre</h2>
+
+                                <div class="schedule-listing bg">
+                                    <span class="schedule-slot-time">9:30 - 10:00</span>
+                                    <div class="schedule-slot-info">
+                                        <div class="schedule-slot-info-content">
+                                            <h3 class="schedule-slot-title">Entrada</h3>
+                                            <p class="schedule-slot-desc">
+                                                Se verificará la entrada de cada pastor, como requisitos la entrada se permitirá con el ticket de registro y su credencial como pastor.
+                                            </p>
+                                        </div><!--Info content end -->
+                                    </div><!-- Slot info end -->
+                                </div><!-- Slot listing 1 end -->
+
+                                <div class="schedule-listing">
+                                    <span class="schedule-slot-time">10:30 - 11:15AM</span>
+                                    <div class="schedule-slot-info">
+                                        <a href="#">
+                                            <img class="schedule-slot-speakers" src="images/speakers/speaker6.jpg" alt="" />
+                                        </a>
+                                        <div class="schedule-slot-info-content">
+                                            <h3 class="schedule-slot-speaker-name">Equipo de Alabanza</h3>
+                                            <h4 class="schedule-slot-title">Momento de adoración y alabanza</h4>
+                                            <p class="schedule-slot-desc">El equipo de alabanza minmistrará el comienzo de la conferencia con adoración y alabanza a nuestro Señor.</p>
+                                        </div><!--Info content end -->
+                                    </div><!-- Slot info end -->
+                                </div><!-- Slot listing 2 end -->
+
+                                <div class="schedule-listing bg">
+                                    <span class="schedule-slot-time">11:15 - 13:15PM</span>
+                                    <div class="schedule-slot-info">
+                                        <a href="#">
+                                            <img class="schedule-slot-speakers" src="images/speakers/speaker5.jpg" alt="" />
+                                        </a>
+                                        <div class="schedule-slot-info-content">
+                                            <h3 class="schedule-slot-speaker-name">Tb. Joshua</h3>
+                                            <h4 class="schedule-slot-title">El poder de la palabra</h4>
+                                            <p class="schedule-slot-desc">Tb. Joshua impartirá la importancia del poder de la palabra.</p>
+                                        </div><!--Info content end -->
+                                    </div><!-- Slot info end -->
+                                </div><!-- Slot listing 3 end -->
+
+                                <div class="schedule-listing">
+                                    <span class="schedule-slot-time">13:30 - 14:30PM</span>
+                                    <div class="schedule-slot-info">
+                                        <div class="schedule-slot-info-content">
+                                            <h3 class="schedule-slot-title">Refrigerio</h3>
+                                            <p class="schedule-slot-desc">Se dará un descanso de 15 minutos.</p>
+                                        </div><!--Info content end -->
+                                    </div><!-- Slot info end -->
+                                </div><!-- Slot listing 4 end -->
+
+                                <div class="schedule-listing bg">
+                                    <span class="schedule-slot-time">14:35 - 16:00PM</span>
+                                    <div class="schedule-slot-info">
+                                        <a href="#">
+                                            <img class="schedule-slot-speakers" src="images/speakers/speaker3.jpg" alt="" />
+                                        </a>
+                                        <div class="schedule-slot-info-content">
+                                            <h3 class="schedule-slot-speaker-name">Tb. Joshua</h3>
+                                            <h4 class="schedule-slot-title">Sesión de Liberación</h4>
+                                            <p class="schedule-slot-desc">Tb. Joshua tendrá un sesión de liberación, sanidad y milagros.</p>
+                                        </div><!--Info content end -->
+                                    </div><!-- Slot info end -->
+                                </div><!-- Slot listing 5 end -->
+
+                            </div><!-- Tab pane 1 end -->
+
+                        </div><!-- tab content -->
+
+                        <div class="gap-60"></div>
+
+                    </div><!-- Schedule tab end -->
+                </div><!-- Col end -->
+            </div><!-- Content row end -->
+        </div><!--/ Container end -->
+    </section><!-- Schedule end -->
+
+    <section id="ts-newsletter" class="ts-newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="newsletter-form clearfix">
+                    <h3>Suscríbete para noticias</h3>
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <input type="email" name="email" id="newsletter-form-email" class="form-control form-control-lg" placeholder="E-mail aquí" autocomplete="off">
+                            <button class="btn btn-primary">Suscribirse</button>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- Row end -->
+        </div><!--/ Container end -->
+    </section><!--/ Newsletter end -->
+
+    <section id="ts-venue" class="ts-venue">
+        <div class="container">
+            <div class="row text-center">
+                <h2 class="section-title">Mayor Información</h2>
+                <p class="section-sub-title">Donde Ubicarnos</p>
+            </div><!--/ Title row end -->
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="venu-info-content box1">
+                        <span class="venu-info-icon"><i class="fa fa-map-marker"></i></span>
+                        <h3 class="venu-info-title">Lugar</h3>
+                        <p class="venu-info-text">La conferencia de pastores se llevará a cabo en xxxxxxxxxxx, para mayor información contáctenos..</p>
+                        <a href="#" class="venu-info-link">Leer Más <i class="fa fa-angle-right"></i></a>
+                    </div><!-- Venu content end -->
+                </div><!-- Col 1 end -->
+
+                <div class="col-md-4">
+                    <div class="venu-info-content box2">
+                        <span class="venu-info-icon"><i class="fa fa-bus"></i></span>
+                        <h3 class="venu-info-title">Transporte</h3>
+                        <p class="venu-info-text">Para llegar al lugar del evento le podemos sugerir que medios de transporte les pueden ayudar.</p>
+                        <a href="#" class="venu-info-link">Read More <i class="fa fa-angle-right"></i></a>
+                    </div><!-- Venu content end -->
+                </div><!-- Col 2 end -->
+
+                <div class="col-md-4">
+                    <div class="venu-info-content box3">
+                        <span class="venu-info-icon"><i class="fa fa-building"></i></span>
+                        <h3 class="venu-info-title">Hotels</h3>
+                        <p class="venu-info-text">Suitable Hotels and Restaurents are surrounded all the area. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                        <a href="#" class="venu-info-link">Read More <i class="fa fa-angle-right"></i></a>
+                    </div><!-- Venu content end -->
+                </div><!-- Col 3 end -->
+
+            </div><!-- Content row end -->
+        </div><!-- Container end -->
+    </section><!-- Venue end -->
+
+    <div id="map" class="map"></div> <!-- Google Map -->
 @endsection
 
 @push('scripts')
@@ -164,7 +368,7 @@
 
             .infowindow({
                 position: eventmap,
-                content: "NYC Seminar and Conference Center, New York"
+                content: "Lima, Perú"
             })
 
             .then(function (infowindow) {

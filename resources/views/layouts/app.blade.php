@@ -115,7 +115,6 @@
                             FOOTER
     ========================================================
     -->
-    <div id="map" class="map"></div> <!-- Google Map -->
 
     <footer id="footer" class="footer text-center">
         <div class="container">
