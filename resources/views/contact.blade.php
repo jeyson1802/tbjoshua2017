@@ -4,11 +4,11 @@
 
 @section('content')
 
-    <div id="page-banner-area" class="page-banner-area" style="background-image:url(images/banner/banner1.jpg)">
+    <div id="page-banner-area" class="page-banner-area" style="background-image:url(images/banner/tbjoshua.png)">
         <!-- Subpage title start -->
         <div class="page-banner-title">
             <div class="text-center">
-                <h2>Contact</h2>
+                <h2>Contacto</h2>
             </div>
         </div><!-- Subpage title end -->
     </div><!-- Banner end -->
@@ -25,24 +25,24 @@
                             <div class="contact-info-box">
                                 <i class="fa fa-map-marker">&nbsp;</i>
                                 <div class="contact-info-box-content">
-                                    <h4>Office Address: </h4>
-                                    <p>Eventime HQ, 1638 North Street Charlottesville, NY 22903</p>
+                                    <h4>Dirección</h4>
+                                    <p>Lima - Perú</p>
                                 </div>
                             </div>
 
                             <div class="contact-info-box">
                                 <i class="fa fa-envelope-o">&nbsp;</i>
                                 <div class="contact-info-box-content">
-                                    <h4>Email Address: </h4>
-                                    <p>example@example.com</p>
+                                    <h4>E-mail</h4>
+                                    <p>contacto@conferenciadepastorestbjoshuaperu.com</p>
                                 </div>
                             </div>
 
                             <div class="contact-info-box">
                                 <i class="fa fa-phone">&nbsp;</i>
                                 <div class="contact-info-box-content">
-                                    <h4>Phone Number: </h4>
-                                    <p>+1(0231) 3421 453</p>
+                                    <h4>Teléfonos</h4>
+                                    <p>941377886 / 986599775</p>
                                 </div>
                             </div>
 
@@ -51,37 +51,37 @@
                 </div><!-- Sidebar col end -->
 
                 <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                    <h3 class="title-classic left">Send Message</h3>
+                    <h3 class="title-classic left">Contáctenos</h3>
                     <form id="contact-form" action="contact-form.php" method="post" role="form">
                         <div class="error-container"></div>
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label>Name</label>
+                                    <label>Nombres</label>
                                     <input class="form-control form-control-name" name="name" id="name" placeholder="" type="text" required>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label>Email</label>
+                                    <label>E-mail</label>
                                     <input class="form-control form-control-email" name="email" id="email"
                                            placeholder="" type="email" required>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label>Subject</label>
+                                    <label>Asunto</label>
                                     <input class="form-control form-control-subject" name="subject" id="subject"
                                            placeholder="" required>
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label>Message</label>
+                            <label>Mensaje</label>
                             <textarea class="form-control form-control-message" name="message" id="message" placeholder="" rows="10" required></textarea>
                         </div>
                         <div class="text-right"><br>
-                            <button class="btn btn-primary solid blank" type="submit">Send Message</button>
+                            <button class="btn btn-primary solid blank" type="submit">Enviar</button>
                         </div>
                     </form>
                 </div><!-- Col end -->

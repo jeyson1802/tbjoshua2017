@@ -28,9 +28,9 @@
                     </div><!-- Countdown end -->
 
                     <h1 class="banner-title">Conferencia de Pastores <br> profeta Tb. Joshua</h1>
-                    <h2 class="banner-desc">Lima - Perú, 21 Noviembre, 2017</h2>
+                    <h2 class="banner-desc">Lima - Perú, Fecha, 2017</h2>
                     <p class="banner-btn">
-                        <a href="#" class="btn btn-primary">Registrate Ahora</a>
+                        <a target="_blank" href="https://www.eventbrite.com.ar/e/entradas-evento-de-caridad-37379046735" class="btn btn-primary">Registrate Ahora</a>
                         <a href="{{ url('conferenciadepastorestbjoshuaperu') }}" class="btn btn-border">Leer Más</a>
                     </p>
                 </div><!-- Banner content end -->
@@ -50,7 +50,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-6">
                     <div class="intro-video">
                         <img class="img-responsive" src="images/intro-video.jpg" alt="" />
-                        <a class="popup" href="https://www.youtube.com/embed/XhveHKJWnOQ?autoplay=1&amp;loop=1">
+                        <a class="popup" href="https://www.youtube.com/embed/Ymg7OBqU-bI?autoplay=1&amp;loop=1">
                             <div class="video-icon">
                                 <i class="fa fa-play"></i>
                             </div>
@@ -190,7 +190,7 @@
                         <div class="tab-content">
                             <div class="tab-pane active animated fadeInRight" id="tab_one">
 
-                                <h2 class="schedule-date">21 de Noviembre</h2>
+                                <h2 class="schedule-date">Fecha</h2>
 
                                 <div class="schedule-listing bg">
                                     <span class="schedule-slot-time">9:30 - 10:00</span>
@@ -208,7 +208,7 @@
                                     <span class="schedule-slot-time">10:30 - 11:15AM</span>
                                     <div class="schedule-slot-info">
                                         <a href="#">
-                                            <img class="schedule-slot-speakers" src="images/speakers/speaker6.jpg" alt="" />
+                                            <img class="schedule-slot-speakers" src="images/speakers/tbjoshua.png" alt="" />
                                         </a>
                                         <div class="schedule-slot-info-content">
                                             <h3 class="schedule-slot-speaker-name">Equipo de Alabanza</h3>
@@ -222,7 +222,7 @@
                                     <span class="schedule-slot-time">11:15 - 13:15PM</span>
                                     <div class="schedule-slot-info">
                                         <a href="#">
-                                            <img class="schedule-slot-speakers" src="images/speakers/speaker5.jpg" alt="" />
+                                            <img class="schedule-slot-speakers" src="images/speakers/tbjoshua.png" alt="" />
                                         </a>
                                         <div class="schedule-slot-info-content">
                                             <h3 class="schedule-slot-speaker-name">Tb. Joshua</h3>
@@ -246,7 +246,7 @@
                                     <span class="schedule-slot-time">14:35 - 16:00PM</span>
                                     <div class="schedule-slot-info">
                                         <a href="#">
-                                            <img class="schedule-slot-speakers" src="images/speakers/speaker3.jpg" alt="" />
+                                            <img class="schedule-slot-speakers" src="images/speakers/tbjoshua.png" alt="" />
                                         </a>
                                         <div class="schedule-slot-info-content">
                                             <h3 class="schedule-slot-speaker-name">Tb. Joshua</h3>
@@ -296,7 +296,7 @@
                     <div class="venu-info-content box1">
                         <span class="venu-info-icon"><i class="fa fa-map-marker"></i></span>
                         <h3 class="venu-info-title">Lugar</h3>
-                        <p class="venu-info-text">La conferencia de pastores se llevará a cabo en xxxxxxxxxxx, para mayor información contáctenos..</p>
+                        <p class="venu-info-text">La conferencia de pastores se llevará a cabo en Lima - Perú, para mayor información contáctenos..</p>
                         <a href="#" class="venu-info-link">Leer Más <i class="fa fa-angle-right"></i></a>
                     </div><!-- Venu content end -->
                 </div><!-- Col 1 end -->
@@ -306,16 +306,16 @@
                         <span class="venu-info-icon"><i class="fa fa-bus"></i></span>
                         <h3 class="venu-info-title">Transporte</h3>
                         <p class="venu-info-text">Para llegar al lugar del evento le podemos sugerir que medios de transporte les pueden ayudar.</p>
-                        <a href="#" class="venu-info-link">Read More <i class="fa fa-angle-right"></i></a>
+                        <a href="#" class="venu-info-link">Leer Más <i class="fa fa-angle-right"></i></a>
                     </div><!-- Venu content end -->
                 </div><!-- Col 2 end -->
 
                 <div class="col-md-4">
                     <div class="venu-info-content box3">
                         <span class="venu-info-icon"><i class="fa fa-building"></i></span>
-                        <h3 class="venu-info-title">Hotels</h3>
-                        <p class="venu-info-text">Suitable Hotels and Restaurents are surrounded all the area. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
-                        <a href="#" class="venu-info-link">Read More <i class="fa fa-angle-right"></i></a>
+                        <h3 class="venu-info-title">Hoteles</h3>
+                        <p class="venu-info-text">Contamos con convenios de hoteles cerca al local del evento, entre al detalle para más información.</p>
+                        <a href="#" class="venu-info-link">Leer Más <i class="fa fa-angle-right"></i></a>
                     </div><!-- Venu content end -->
                 </div><!-- Col 3 end -->
 

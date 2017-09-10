@@ -23,15 +23,15 @@ Route::get('/tbjoshuaperu', function () {
     return view('tbjoshua');
 });
 
-Route::get('/questions', function () {
+Route::get('/preguntastbjoshua', function () {
     return view('questions');
 });
 
-Route::get('/hotels', function () {
-    return view('hotels');
+Route::get('/programaciontbjoshuaperu', function () {
+    return view('programmer');
 });
 
-Route::get('/conference', function () {
+Route::get('/conferenciadepastorestbjoshuaperu', function () {
     return view('conference');
 });
 

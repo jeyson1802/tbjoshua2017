@@ -93,7 +93,7 @@
                             <li><a href="{{ url('contactotbjoshuaperu') }}">Contacto</a></li><!-- Tb. Joshua li end -->
 
                             <li class="header-ticket">
-                                <a class="ticket-btn btn-primary" href="#"><i class="fa fa-ticket"></i> Registro</a>
+                                <a target="_blank" class="ticket-btn btn-primary" href="https://www.eventbrite.com.ar/e/entradas-evento-de-caridad-37379046735"><i class="fa fa-ticket"></i> Registro</a>
                             </li>
 
                         </ul><!--/ Nav ul end -->
@@ -138,7 +138,7 @@
                             <li><a href="{{ url('conferenciadepastorestbjoshuaperu') }}">Conferencia</a></li>
                             <li><a href="{{ url('programaciontbjoshuaperu') }}">Programación</a></li>
                             <li><a href="{{ url('tbjoshuaperu') }}">Tb. Joshua</a></li>
-                            <li><a href="#">Registro</a></li>
+                            <li><a target="_blank" href="https://www.eventbrite.com.ar/e/entradas-evento-de-caridad-37379046735">Registro</a></li>
                             <li><a href="{{ url('preguntastbjoshua') }}">Preguntas Frecuentes</a></li>
                             <li><a href="{{ url('contactotbjoshuaperu') }}">Contacto</a></li>
                         </ul>
