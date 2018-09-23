@@ -15,8 +15,8 @@ $name=stripslashes($name);
 $email=stripslashes($email);
 $subject=stripslashes($subject);
 $message=stripslashes($message);
-$phone=stripslashes($phone);
-$ticket=stripslashes($ticket);
+//$phone=stripslashes($phone);
+//$ticket=stripslashes($ticket);
 $message= "Name: $name, Subject: $subject \n\n Message: $message";
 
 /*
